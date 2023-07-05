@@ -1,14 +1,14 @@
 {
-  "name": "rtn-edison-helper",
+  "name": "rtn-turbo-modules-helper",
   "version": "0.0.1",
-  "description": "helper for edison react native",
+  "description": "turbo modules helper for edison react native",
   "react-native": "src/index",
   "source": "src/index",
   "files": [
     "src",
     "android",
     "ios",
-    "rtn-edison-helper.podspec",
+    "rtn-turbo-modules-helper.podspec",
     "!android/build",
     "!ios/build",
     "!**/__tests__",
@@ -34,11 +34,11 @@
     "react-native": "0.70.10"
   },
   "codegenConfig": {
-    "name": "RTNHelperSpec",
+    "name": "RtnTurboModulesHelperSpec",
     "type": "modules",
     "jsSrcsDir": "src",
     "android": {
-      "javaPackageName": "com.rtnedisonhelper"
+      "javaPackageName": "com.rtnturbomoduleshelper"
     }
   }
 }

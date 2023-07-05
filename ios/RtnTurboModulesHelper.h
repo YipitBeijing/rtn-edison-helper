@@ -2,7 +2,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface RTNHelper : NSObject <RCTBridgeModule>
+@interface RtnTurboModulesHelper : NSObject <RCTBridgeModule>
 
 @end
 

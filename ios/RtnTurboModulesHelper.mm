@@ -1,9 +1,9 @@
-#import "RTNHelperSpec.h"
-#import "RTNHelper.h"
+#import "RtnTurboModulesHelperSpec.h"
+#import "RtnTurboModulesHelper.h"
 
-@implementation RTNHelper
+@implementation RtnTurboModulesHelper
 
-RCT_EXPORT_MODULE(RTNHelper)
+RCT_EXPORT_MODULE(RtnTurboModulesHelper)
 
 RCT_REMAP_METHOD(transmitString, strA:(NSString *)a
                 withResolver:(RCTPromiseResolveBlock) resolve

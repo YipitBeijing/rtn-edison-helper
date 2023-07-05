@@ -1,4 +1,4 @@
-package com.rtnedisonhelper;
+package com.rtnturbomoduleshelper;
 
 import androidx.annotation.Nullable;
 import com.facebook.react.bridge.NativeModule;
